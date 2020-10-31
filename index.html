@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gigabit Wireless Broadband</title>
+		<link rel="stylesheet" href="style1.css" />
+	</head>
+	<body>
+		<header>
+			<div class="icon">
+				<div class="icons">
+					<a href="https://www.facebook.com/gigabittacloban" target="_blank">
+						<img
+							class="socialmedia fb"
+							src="./img/home/fb.png"
+							alt="Facebook"
+						/>
+					</a>
+					<a href="https://www.facebook.com/gigabittacloban" target="_blank">
+						<img
+							class="socialmedia twitter"
+							src="./img/home/twitter.png"
+							alt="Twitter"
+						/>
+					</a>
+					<a
+						href="https://www.youtube.com/channel/UC961I7R9nw9S-kE1vUQHxmA?view_as=subscriber"
+						target="_blank"
+					>
+						<img
+							class="socialmedia youtube"
+							src="./img/home/yt.png"
+							alt="Youtube"
+						/>
+					</a>
+				</div>
+			</div>
+			<div class="logo">
+				<img src="./img/home/gwb_LOGO2.jpg" alt="logo" />
+			</div>
+			<div class="navbar">
+				<button>Home</button>
+				<button>
+					<a href="productsandservices.html">Products and Services</a>
+				</button>
+			</div>
+			<div class="contactus">
+				<p><strong>Contact us:</strong> 09451337981</p>
+				<p><strong>Email: </strong> gigabitwirelesstacloban@gmail.com</p>
+			</div>
+		</header>
+		<main>
+			<div class="content1">
+				<img
+					class="banner"
+					src="./img/home/AFTH.jpg"
+					alt="Air Fiber to Home Wifi"
+				/>
+				<h1 class="aboutus">About Us</h1>
+				<p>
+					We are a System Integrator with expertise on Internet-based
+					technologies, from retail wi-fi internet business solutions to
+					security surveillance system.
+				</p>
+			</div>
+
+			<div class="content2">
+				<div class="cards">
+					<div class="card">
+						<img src="./img/home/team.png" alt="Gigabit Team" />
+						<p>Passionate and Talented team</p>
+					</div>
+					<div class="card">
+						<img src="./img/home/solutions.png" alt="Gigabit Solutions" />
+						<p>Dependable and robust solutions</p>
+					</div>
+					<div class="card">
+						<img src="./img/home/security.png" alt="Security" />
+						<p>Secure and trusted technology</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="content3">
+				<div class="video">
+					<iframe
+						width="760"
+						height="500"
+						src="https://www.youtube.com/embed/mIsHcH5gM5E"
+						--
+					>
+						frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+						encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+						></iframe
+					>
+				</div>
+				<h1 class="products">Products and Services</h1>
+				<p>
+					Our system continuously works for you even in the comfort of your
+					sleep.
+				</p>
+			</div>
+
+			<div class="productsandservices">
+				<img src="./img/home/HBox.jpg" alt="HBox Premium" />
+				<img src="./img/home/1900.jpg" alt="Air Fiber" />
+				<img src="./img/home/WIFI RETAILER...jpg" alt="Wi-Fi Retailer" />
+				<img src="./img/home/Machine ONLY.jpg" alt="Machine Only" />
+			</div>
+
+			<div class="contActuS">
+				<div class="contactdetails">
+					<p class="cDetails number">
+						<strong>Contact us: 09451337981</strong>
+					</p>
+					<p class="cDetails facebook">
+						<strong>Facebook: fb.com/gigabittacloban</strong>
+					</p>
+				</div>
+				<div class="callcenter">
+					<img src="./img/home/callcenter.png" alt="Call Center" />
+				</div>
+			</div>
+
+			<form>
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Value</th>
+					</tr>
+					<tr>
+						<td>Name</td>
+						<td>
+							<input type="number" min="1" max="10" step=".5" required />
+							<br />/ <input type="date" /><br />
+							<input type="file" /><br />
+							<input type="password" />
+						</td>
+					</tr>
+					<tr>
+						<td>Gender</td>
+						<td>
+							<input type="radio" name="gender" />Male <br />
+							<input type="radio" name="gender" />Female
+						</td>
+					</tr>
+					<tr>
+						<td>Eye color</td>
+						<td>
+							<select>
+								<option>black</option>
+								<option>brown</option>
+								<option>green</option>
+								<option>blue</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Check all that apply</td>
+						<td>
+							<input type="checkbox" />Over 6 feet tall <br />
+							<input type="checkbox" />Over 200 pounds
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							Describe your athletic ability: <br />
+							<textarea cols="30" rows="10"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<br />
+							<input type="submit" value="Enter my information" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</main>
+
+		<footer>
+			<p>Copyrights 2020 | Gigabit Wireless Broadband | All Rights Reserved</p>
+		</footer>
+
+		<!-- Load Facebook SDK for JavaScript -->
+		<div id="fb-root"></div>
+		<script>
+			window.fbAsyncInit = function () {
+				FB.init({
+					xfbml: true,
+					version: 'v8.0',
+				});
+			};
+
+			(function (d, s, id) {
+				var js,
+					fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			})(document, 'script', 'facebook-jssdk');
+		</script>
+
+		<!-- Your Chat Plugin code -->
+		<div
+			class="fb-customerchat"
+			attribution="setup_tool"
+			page_id="102580691501566"
+		></div>
+	</body>
+</html>
